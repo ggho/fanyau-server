@@ -26,5 +26,4 @@ It is available at the OpenShift's free domain: http://server-fanyau.rhcloud.com
 e.g.
 - `GET /`: [http://server-fanyau.rhcloud.com/](http://server-fanyau.rhcloud.com/)
 - `GET /user/:userid`: [http://server-fanyau.rhcloud.com/user/gigiho](http://server-fanyau.rhcloud.com/user/gigiho) 
-
-This retrieves user info of <userid> stored on the Firebase database and retrun the info as JSON.
+  - This retrieves user info of <userid> stored data on the Firebase database and retrun the info as JSON.
