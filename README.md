@@ -1,8 +1,8 @@
 #Fanyau API server 
 
-- running on Node.js using [express](https://expressjs.com/)
-- connecting to Firebase Database project: [Firebase project here](https://console.firebase.google.com/project/fanyau-server/overview)
-- hosted on [OpenShift](https://openshift.redhat.com) using their [`nodejs` cartridge](http://openshift.github.io/documentation/oo_cartridge_guide.html#nodejs): [OpenShift project here](https://openshift.redhat.com/app/console/application/57cb4a102d5271ad6c0000a9-server)
+- Server: Node.js using [express](https://expressjs.com/)
+- Database: Firebase Database project: [Firebase project here](https://console.firebase.google.com/project/fanyau-server/overview)
+- Hosting: [OpenShift](https://openshift.redhat.com) using their [`nodejs` cartridge](http://openshift.github.io/documentation/oo_cartridge_guide.html#nodejs): [OpenShift project here](https://openshift.redhat.com/app/console/application/57cb4a102d5271ad6c0000a9-server)
 
 ## Set up locally
 
@@ -21,8 +21,10 @@ OpenShift use a git push hook as deployment method. They provide a git to store 
 
 #Demo
 
-It is available at the OpenShift's free domain: http://server-fanyau.rhcloud.com/ (custom domain is configurable too)
+It is available at the OpenShift's free domain: http://server-fanyau.rhcloud.com/ (custom domain is configurable too).
 
 e.g.
 - `GET /`: [http://server-fanyau.rhcloud.com/](http://server-fanyau.rhcloud.com/)
-- `GET /user/:userid`: [http://server-fanyau.rhcloud.com/user/gigiho](http://server-fanyau.rhcloud.com/user/gigiho)
+- `GET /user/:userid`: [http://server-fanyau.rhcloud.com/user/gigiho](http://server-fanyau.rhcloud.com/user/gigiho) 
+
+This retrieves user info of <userid> stored on the Firebase database and retrun the info as JSON.
