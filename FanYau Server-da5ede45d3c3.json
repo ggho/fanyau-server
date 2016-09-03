@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "fanyau-server",
+  "private_key_id": "da5ede45d3c37895b85b019568cbabf2aa64b086",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDYRRlPrCBU8KeU\n93FbKEaEUR81TyiwIEbIKXtyT07H2U0EtDMBH0SHR7NNurLx6ODPLQC+gdd8MMdA\nfx9kHm1J2tIstZVvwUsiYcsIM+P95yLEm1as/ul0yfcZkLshc/24yixUyAjWYpst\nwv0alCNCEAT31v1zLtXGvx3z8VtQW47wZ7vY77InFBI4vcHt1LPdbHE5sj8u1DKF\nloop1Ozq0INWmk5c5KLZM+2f6y7Z8VzfGnHxpwbMmv7vpYfb2XosHPKU50YaRTRY\n/iSu4sqzgrD5t8R1c+XIVmuPQVEctdqMJwO5Zt879YwVaxTN81mHS4oRLA24PCSs\n4ppW2OGVAgMBAAECggEBAJDqLD2wrrF72C7/ZxuX7zh2Sx0jf7YUypkRAsDj13we\nZXdDb/HOi9LB/qmU8pcaXpk0JI2C32s+HCVhiR1DLiQQ1khTHGEX+kp9kNhcPOdD\nW462L+wXm0NAmaytyFZwLJEIF5BvwUw2IpkVURfgL4fyyAFyM75coa5dHar6DR/Y\nHiEJmglBT2p//c8DmCnzf22seDysO37xFhuujr6cK78sFhf4Q1yFBAgkZQqCtbTs\nobBU4QBnB1N5HxgYgivsOfPpMxd/ToAeK+YsbZiKU8azVTyrsAv7vjfQsHUOx5SV\nH2KAloIIQh/NOM+zRhV6GzrWRIcePEsU3x9LvQybHUECgYEA+U0EwGYj5C17ARME\n77pLUc1l+xwZxqiffq9h8NdKTmIzdN8xBbdlZk+a4V0n60AyPzQRI50AMggEE1QM\n5t+RtL5UTKy6Y1tUvHjTSP6Z2bIHgd7rTgzPAKbKWfFVNtgdCVq53F8V8h/5U8HJ\nWO0kqmkjVDjvY39tHMffVzUBPnkCgYEA3hTa5ulimaNeyvEVmQcJH9Tv77m+bphv\n+LPvci0EWbOr9hBCuxmMzfSRbXU2nlKTvYJsmWV/vVSB6z1Arqu5lqzCgm+MJBlI\nPP6zaVd3SOLwfLJB4K8RDkpZUJ/ZuVxdqKgI++s5Jvwo2QH7c8wBnmec1y0Ki7DJ\nSBy6EGa2RP0CgYBFay3ciVSLMCLlPK+ONXjNsX0pPDztNX0cIKgMEVbulqevborP\nBa9lmtsM0AzSlBCpyszO9uPcCqFf5HKnQy/mfW0p4JsSGZdx1881rzeWB93RSwqI\ntEZb7xW/j9TjrbAAL9Q7Sfrpbf/WU8rGSVqBXT9qL2Rxd0Uh04IcXXUYOQKBgHqW\naH8uNQ857wl3KsTd7Vt03z0k+slxu9089d/AmbYqR7H8J9m/sMm/Rsd0/EFIs+TY\nKbpDHNAV5eFEXoAMqtVRZ804ZdNHYWjJ758meOHy42zxuQudl3yb7dFja3u2ULzY\nhJ0KqvGqH6IqRfMVmY8nApyEcF3LqE/2C38iM1rBAoGBAL3U0VE11qgtg7KGCtm9\nhwBY6m1372UJFmHJTL6y7w7Lq5b9Z59zeranERnKI3Z0ZGL7HR6aRLZ8Vuy5xJIh\nIQ6E/haiyiPvlHKSIp5N6OkzEAYWX5slm9bVuSBCEh1CQZ9eYiNfzcdEW4/OaEcg\nr8vjNZokL6LwzMkCmzG9swkS\n-----END PRIVATE KEY-----\n",
+  "client_email": "fanyau-server@fanyau-server.iam.gserviceaccount.com",
+  "client_id": "115438843499408300273",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fanyau-server%40fanyau-server.iam.gserviceaccount.com"
+}
