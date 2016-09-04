@@ -13,12 +13,13 @@ Note: Log in to both Firebase and OpenShift's services are registered under find
 3. Run `npm install` to install dependencies 
 4. Run `node server.js` to start the server at your localhost, default link: [http://localhost:8080/](http://localhost:8080/)
  
-## Deploy to production
+## Deploy to production setup
 
-OpenShift use a git push hook as deployment method. They provide a git to store the project source, and any `push` to this git source will trigger a release of the project which is publicly available at [http://server-fanyau.rhcloud.com/](http://server-fanyau.rhcloud.com/).
+OpenShift use a git push hook as deployment method. They provide a git server to store the project source, and any `push` to this git server will trigger a release of the project which is publicly available at [http://server-fanyau.rhcloud.com/](http://server-fanyau.rhcloud.com/).
 
-1. (Do only once at setup) Add a remote source to your git [ssh://57cb4a102d5271ad6c0000a9@server-fanyau.rhcloud.com/~/git/server.git/](ssh://57cb4a102d5271ad6c0000a9@server-fanyau.rhcloud.com/~/git/server.git/)
-2. Push any changes to the git
+1. Add your Public SSH key to this [console page](https://openshift.redhat.com/app/console/settings). (More instructions go [here](https://developers.openshift.com/managing-your-applications/remote-connection.html#keys)) 
+2. Add an extra remote source to this git you cloned earlier: [ssh://57cb4a102d5271ad6c0000a9@server-fanyau.rhcloud.com/~/git/server.git/](ssh://57cb4a102d5271ad6c0000a9@server-fanyau.rhcloud.com/~/git/server.git/)
+3. Push any changes to the git master branch will trigger a release
 
 
 #Demo
